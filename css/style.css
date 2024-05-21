@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:bisque !important; 
+    font-family: lator, sans-serif;
+}
+
+b + i {
+    color: red; 
+    font-size: 20px; 
+}
+
+p strong {
+    font-size: 20px;
+}
+
+i > strong {
+    text-decoration: underline;
+}
+
+.head-page {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head-page {
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraph-example {
+    background-color: white;
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.content {
+    color: #333;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fontExample {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    padding-left: 0; 
+    color: #333; 
+}
+
+ol {
+    list-style-type: decimal; 
+    margin-left: 20px; 
+    padding-left: 0; 
+    color: #333; 
+}
+
+dl {
+    margin-left: 20px; 
+    padding-left: 0; 
+    color: #333; 
+}
+
+dt {
+    font-weight: bold; 
+}
+
+li {
+    margin-bottom: 5px; 
+}
+
+th {
+    background-color: #f2f2f2; 
+    color: #333; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+
+td {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+
+.heading {
+    font-size: 24px; 
+    color: #333; 
+    font-style: italic; 
+    text-align: center; 
+}
